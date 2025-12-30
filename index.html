@@ -1,155 +1,145 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="jemdoc.css" type="text/css">
-<title>Xingchen Li</title>
-<body><table id="tlayout"><tbody>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xingchen Li - Tsinghua University</title>
+    <link rel="stylesheet" href="modern.css">
+</head>
+<body>
 
-<!-- menu -->
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Xingchen Li</div>
-<div class="menu-item">
-<a href="https://lixc21.github.io/index.html" class="current">Home</a><br>
-<!-- <a href="#Education" class="current">Education</a><br> -->
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <img src="lixc.jpg" alt="Xingchen Li" class="profile-img">
+        <h1>Xingchen Li <br><span style="font-size: 1.2rem; font-weight: normal;">(李星辰)</span></h1>
+        <div class="subtitle">Ph.D. Candidate<br>Tsinghua University</div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html" class="current">Academic</a></li>
+            <li><a href="life.html">Life</a></li>
+        </ul>
+
+        <div class="social-links">
+            <a href="https://scholar.google.com/citations?user=4RbhjTcAAAAJ">Google Scholar</a>
+            <a href="https://github.com/lixc21/">Github</a>
+            <a href="https://www.zhihu.com/people/lixc21">Zhihu</a>
+        </div>
+        
+        <div class="page-views">
+            <script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=rnaTa8NXUWu_rpGtwwMv-Ogb7h4CEz7XGeG50LOuWpY&cmn=ff6800&cmo=ffc53a'></script>
+        </div>
+        
+        <div class="last-updated">Last updated: Dec 2025</div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I am a Ph.D. candidate in the <a href="https://www.au.tsinghua.edu.cn/">Department of Automation</a> at Tsinghua University, advised by Prof. <a href="https://scholar.google.com/citations?user=JYe-E_wAAAAJ">Keyou You</a>.
+            </p>
+            <p>
+                My research interests lie at the intersection of <b>Optimization, Machine Learning, and High-Performance Computing</b>. I am dedicated to exploring the theoretical foundations of neural control and developing efficient solvers for large-scale optimization problems. Currently, I am also working on High-performance GPU solvers for optimization.
+            </p>
+            <p>
+                If you are interested in my research or have any questions, please feel free to contact me via email at <a href="mailto:lixc21@mails.tsinghua.edu.cn">lixc21@mails.tsinghua.edu.cn</a>.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="edu-item">
+                <div class="edu-main">
+                    <span class="edu-degree">Ph.D. Candidate in Control Science and Engineering</span>
+                    <span class="edu-school">Tsinghua University</span>
+                </div>
+                <div class="edu-meta">
+                    <span class="edu-year">2021 - Present</span>
+                    <span class="edu-rank">Rank: 3/86 (Top 3%)</span>
+                </div>
+            </div>
+
+            <div class="edu-item">
+                <div class="edu-main">
+                    <span class="edu-degree">B.Eng. in Automation</span>
+                    <span class="edu-school">Tsinghua University</span>
+                </div>
+                <div class="edu-meta">
+                    <span class="edu-year">2017 - 2021</span>
+                    <span class="edu-rank">Rank: 5/166 (Top 3%)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            
+            <div class="pub-item">
+                <div class="pub-title">The Bidirectional Mapping Between Linear Model Predictive Control Policies and ReLU Neural Networks</div>
+                <div class="pub-authors"><b>Xingchen Li</b>, Keyou You</div>
+                <div class="pub-venue">IEEE 64th Conference on Decision and Control (CDC), 2025.</div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-title">ReLU Neural Networks for Approximating Model Predictive Control: Complexity and Stability Guarantees</div>
+                <div class="pub-authors"><b>Xingchen Li</b>, Keyou You</div>
+                <div class="pub-venue">IEEE American Control Conference (ACC), 2025.</div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-title">Recent Advances in Fast Solving Optimization Problems Using Neural Network for Model Predictive Control</div>
+                <div class="pub-authors"><b>Xingchen Li</b>, Tianxun Li, Keyou You</div>
+                <div class="pub-venue">Information and Control, 2024.</div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-title">Data-driven Control of Linear Systems via Quantized Feedback</div>
+                <div class="pub-authors"><b>Xingchen Li</b>, Feiran Zhao, Keyou You</div>
+                <div class="pub-venue">Journal of Systems Science and Complexity, 2024.</div>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-title">Data-driven Control of Unknown Linear Systems via Quantized Feedback</div>
+                <div class="pub-authors">Feiran Zhao*, <b>Xingchen Li*</b>, Keyou You (*: equal contribution)</div>
+                <div class="pub-venue">4th Annual Learning for Dynamics Control Conference (L4DC), 2022.</div>
+            </div>
+        </section>
+
+        <section id="honors">
+            <h2>Honors & Awards</h2>
+            
+            <div class="honor-category">
+                <div class="honor-item">
+                    <span class="honor-name">Excellent Undergraduate Graduation Thesis in Beijing <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 0.5%)</span></span>
+                    <span class="honor-year">2021</span>
+                </div>
+                <div class="honor-item">
+                    <span class="honor-name">First Prize, Mathematical Modeling Competition in Tsinghua <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 2%)</span></span>
+                    <span class="honor-year">2022</span>
+                </div>
+                <div class="honor-item">
+                    <span class="honor-name">Outstanding Teaching Assistant Award <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 3%)</span></span>
+                    <span class="honor-year">2024</span>
+                </div>
+                <div class="honor-item">
+                    <span class="honor-name">Outstanding Graduate of Dept. of Automation, Tsinghua University <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 3%)</span></span>
+                    <span class="honor-year">2021</span>
+                </div>
+                <div class="honor-item">
+                    <span class="honor-name">Graduate Scholarship for Outstanding Performance <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 5%)</span></span>
+                    <span class="honor-year">2022, 2023, 2024</span>
+                </div>
+                <div class="honor-item">
+                    <span class="honor-name">Scholarship for Excellent Social Practice <span style="color:var(--primary-color); font-size:0.85em; margin-left:5px;">(Top 5%)</span></span>
+                    <span class="honor-year">2023</span>
+                </div>
+            </div>
+        </section>
+    </main>
 </div>
-</td>
 
-
-<td id="layout-content">
-<!-- title -->
-<div id="toptitle">
-<h1>Xingchen Li</h1>
-</div>
-
-
-<!-- intro -->
-<table class="imgtable"><tbody>
-<tr>
-<td><img src="lixc.jpg" alt="450" width="100px"></td>
-<td align="left">
-	<p>
-		Xingchen Li (李星辰)<br>
-		Ph.D. Student<br>
-		<a href="https://www.au.tsinghua.edu.cn/"> Department of Automation, Tsinghua University</a><br>
-		Advised by Prof. <a href="https://scholar.google.com/citations?user=JYe-E_wAAAAJ">Keyou You</a><br><br>
-		[<a href="https://scholar.google.com/citations?user=4RbhjTcAAAAJ">Google Scholar</a>]
-		[<a href="https://www.researchgate.net/profile/Xingchen-Li-17">ResearchGate</a>]
-		[<a href="https://github.com/lixc21/">Github</a>]
-		[<a href="https://www.zhihu.com/people/lixc21">Zhihu</a>]
-	</p>
-</td>
-</tr></tbody></table>
-
-
-<h2>Education</h2>
-<a name="Education"></a>
-<p>
-<b>2021.8 - present</b>&ensp;&ensp;
-Department of Automation, Tsinghua University<br>
-Ph.D. student in <i>Control Science and Engineering</i>, GPA 3.97, rank 3/86<br><br>
-
-<b>2018.8 - 2021.6</b>&ensp;&ensp;
-Department of Automation, Tsinghua University<br>
-Major in <i>Automation</i>, received a Bachelor of <i>Engineering</i><br>
-GPA 3.85, rank 5/166&ensp;&ensp;(GPA 3.96, rank 1/166 in the third grade)<br><br>
-Minor in <i>Economy</i>, School of Economics and Management, Tsinghua University<br>
-GPA 3.72, received a minor certificate in <i>Economy</i><br><br>
-
-<b>2017.8 - 2018.6</b>&ensp;&ensp;
-Department of Mechanical Engineering, Tsinghua University<br>
-Major in <i>Mechanical Engineering</i>, GPA 3.90, rank 2/139
-</p>
-
-
-<h2>Research Interests</h2>
-<a name="Research"></a>
-<p>
-learning for optimization<br>
-</p>
-
-
-<h2>Honors and Awards</h2>
-<a name="Honors"></a>
-<p>
-<b>2024.12</b>&ensp; 
-Graduate Scholarship for Outstanding Performance, Tsinghua University<br>
-<b>2024.12</b>&ensp; 
-Outstanding Teaching Assistant Award, Tsinghua University<br>
-<b>2023.10</b>&ensp;
-Graduate Scholarship for Outstanding Performance, Tsinghua University<br>
-<b>2023.09</b>&ensp;
-Scholarship for Excellent Social Practice, Tsinghua University<br>
-<b>2023.05</b>&ensp;
-First Prize Nomination of 2023 Mathematical Modeling Competition in Tsinghua<br>
-<b>2022.10</b>&ensp;
-Graduate Scholarship for Outstanding Performance, Tsinghua University<br>
-<b>2022.05</b>&ensp;
-First Prize of 2022 Mathematical Modeling Competition in Tsinghua<br>
-<b>2021.06</b>&ensp;
-Excellent Undergraduate Graduation Project (Thesis) in Beijing<br>
-<b>2021.06</b>&ensp;
-Outstanding Graduate of Department of Automation, Tsinghua University<br>
-<b>2020.12</b>&ensp;
-Scholarship for Outstanding Academic Performance, Tsinghua University<br>
-<b>2020.12</b>&ensp;
-Scholarship for Philobiblion, Tsinghua University<br>
-<b>2019.11</b>&ensp;
-First Prize of 2019 CUMCM Mathematical Modeling Competition in Beijing<br>
-<b>2018.12</b>&ensp;
-Scholarship for Outstanding Academic Performance, Tsinghua University<br>
-</p>
-
-
-<!-- <h2>Academic Activities</h2>
-<a name="Academic Activities"></a>
-<p></p> -->
-
-
-<h2>Selected Publications</h2>
-<a name="Publications"></a>
-<p>
-[7] <b>The Bidirectional Mapping Between Linear Model Predictive Control Policies and ReLU Neural Networks</b><br>
-&ensp;&ensp;&ensp;<b>Xingchen Li</b>, Keyou You<br>
-&ensp;&ensp;&ensp;<i>IEEE 64th Conference on Decision and Control, 2025.</i>
-</p>
-<p>
-[6] <b>ReLU Neural Networks for Approximating Model Predictive Control: Complexity and Stability Guarantees</b><br>
-&ensp;&ensp;&ensp;<b>Xingchen Li</b>, Keyou You<br>
-&ensp;&ensp;&ensp;<i>IEEE American Control Conference, 2025.</i>
-</p>
-<p>
-[5] <b>Recent Advances in Fast Solving Optimization Problems Using Neural Network for Model Predictive Control</b><br>
-&ensp;&ensp;&ensp;<b>Xingchen Li</b>, Tianxun Li, Keyou You<br>
-&ensp;&ensp;&ensp;<i>Information and Control, 2024.</i>
-</p> 
-<p>
-[4] <b>Data-driven Control of Linear Systems via Quantized Feedback</b><br>
-&ensp;&ensp;&ensp;<b>Xingchen Li</b>, Feiran Zhao, Keyou You<br>
-&ensp;&ensp;&ensp;<i>Journal of Systems Science and Complexity, 2024.</i>
-</p>
-<p>
-[3] <b>Data-driven Control of Unknown Linear Systems via Quantized Feedback</b><br>
-&ensp;&ensp;&ensp;Feiran Zhao#, <b>Xingchen Li</b>#, Keyou You (#: equal contribution)<br>
-&ensp;&ensp;&ensp;<i>4th Annual Learning for Dynamics Control Conference, 2022.</i>
-</p>
-<p>
-[2] <b>Deep Neural Network Based Model Predictive Control for Standoff Tracking by a Quadrotor UAV</b><br>
-&ensp;&ensp;&ensp;Fei Dong, <b>Xingchen Li</b>, Keyou You, Shiji Song<br>
-&ensp;&ensp;&ensp;<i>IEEE 61st Conference on Decision and Control Conference, 2022.</i>
-</p>
-<p>
-[1] <b>Standoff Tracking Using DNN-Based MPC with Implementation on FPGA</b><br>
-&ensp;&ensp;&ensp;Fei Dong, <b>Xingchen Li</b>, Keyou You, Shiji Song<br>
-&ensp;&ensp;&ensp;<i>IEEE Transactions on Control Systems Technology, 2022.</i>
-</p>
-
-
-
-<h2>Contact</h2>
-<a name="Contact"></a>
-<p>Location: Central Main Building 609, Tsinghua University, Beijing, China.<br>
-E-Mail: <a href="mailto:lixc21@mails.tsinghua.edu.cn">lixc21@mails.tsinghua.edu.cn</a><br>
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=rnaTa8NXUWu_rpGtwwMv-Ogb7h4CEz7XGeG50LOuWpY&cmn=ff6800&cmo=ffc53a'></script>
-	
-</td>
-</tbody></table></body></html>
+</body>
+</html>
